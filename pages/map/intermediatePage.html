@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keywords" content="online-zoo, online zoo">
+  <link rel="stylesheet" href="map.css">
+  <link rel="stylesheet" href="zoos.css">
+  <link rel="stylesheet" href="media-map.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>online-zoo</title>
+</head>
+
+<body>
+
+  <header class="backgroung-more-1920-major header-background">
+    <div class="wrapper">
+      <div class="content">
+        <div class="header-logo-img">
+          <a href="../../index.html" class="header-logo"></a>
+        </div>
+        <nav class="navigation">
+          <ul class="navigation-inner">
+            <li><a href="../../index.html">about</a></li>
+            <li><a href="../zoos/panda/panda.html">zoos</a></li>
+            <li><a id="correction">map</a></li>
+            <li><a href="#contact-us-area">contact us</a></li>
+            <li><a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp">design</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="toogle-container">
+          <input type="checkbox" id="switch" name="theme" /><label for="switch" id="switcher">Toogle</label>
+        </div>
+        <div class="adaptive-menu"></div>
+        <!-- todo in future - burger menu -->
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="inner-wrapper">
+
+      <section class="section-text">
+        <h2>Choose your favorite</h2>
+        <p>As a voice for wildlife, we are devastated by the impact of the 2020 Australian bushfires
+          on precious species and their habitat, and we are determined to assist in all aspects,
+          including providing veterinary support and raising much-needed emergency funds.
+          Zoo Online saves wildlife and inspires everyone to make conservation a priority
+          in their lives. Animals have the right to a pain-free and happy life.
+          They have equal claim to the resources of this planet, and deserve a life of dignity
+          and compassion.As a voice for wildlife, we are devastated by the impact of the 2020
+          Australian bushfires on precious species and their habitat.</p>
+      </section>
+
+      <div class="carousel">
+
+        <div class="arrows arrow-left">
+          <img src="../../assets/icons/slider/left-arrow-gray.png" class="color-transform" alt="left arrow">
+        </div>
+
+        <div title="gorilla" class="carousel-item" id="gorilla">
+          <a>
+            <img src="../../assets/images/animals-round/gorilla.png" alt="gorilla" class="size-img" />
+          </a>
+        </div>
+
+        <div title="panda" class="carousel-item carousel-item_active" id="panda">
+          <a>
+            <img src="../../assets/images/animals-round/panda.png" alt="panda" class="size-img" />
+          </a>
+        </div>
+
+        <div title="alligator" class="carousel-item" id="alligator">
+          <a>
+            <img src="../../assets/images/animals-round/alligator.png" alt="alligator" class="size-img" />
+          </a>
+        </div>
+
+        <div title="eagle" class="carousel-item" id="eagle">
+          <a>
+            <img src="../../assets/images/animals-round/eagle.png" alt="eagle" class="size-img" />
+          </a>
+        </div>
+
+        <div title="tiger" class="carousel-item" id="tiger">
+          <a>
+            <img src="../../assets/images/animals-round/tiger.png" alt="tiger" class="size-img" />
+          </a>
+        </div>
+
+        <div title="elephant" class="carousel-item" id="elephant">
+          <a>
+            <img src="../../assets/images/animals-round/elephant.png" alt="elephant" class="size-img" />
+          </a>
+        </div>
+
+        <div title="lion" class="carousel-item" id="lion">
+          <a>
+            <img src="../../assets/images/animals-round/lion.png" alt="lion" class="size-img" />
+          </a>
+        </div>
+
+        <div title="zebra" class="carousel-item" id="zebra">
+          <a>
+            <img src="../../assets/images/animals-round/zebra.png" alt="zebra" class="size-img" />
+          </a>
+        </div>
+
+        <div class="arrows arrow-right">
+          <img src="../../assets/icons/slider/right-arrow-gray.png" class="color-transform" alt="right arrow">
+        </div>
+
+      </div>
+
+      <div class="range-slider-map">
+        <div class="slider-text">
+          <p id="slider-number">02</p><span class="simbol">/</span>
+          <p id="slider-08">08</p>
+        </div>
+        <div class="slider-container-map">
+          <input type="range" min="1" max="8" value="2" step="1" class="slider-map" id="my-range">
+        </div>
+      </div>
+
+
+
+      <div class="map">
+
+        <div class="map_area">
+
+          <div class="map-icon-01">
+            <div title="eagle" class="map-icon">
+              <img src="../../assets/images/map/eagle.png" class="map-icon-pet" alt="eagle">
+            </div>
+
+            <!-- <div class="pop-up-area-01">
+              <img src="../../assets/images/map/map-eagle.png" class="pop-up-img" alt="eagle">
+              <h3>West End Bald Eagle</h3>
+              <div class="pop-up-region">
+                <p><span>Region:</span> on an island near Los Angeles</p>
+              </div>
+              <div class="pop-up-population">
+                <p><span>Population:</span> more than 270 pairs in 2013</p>
+              </div>
+            </div> -->
+
+            <div class="map-icon-02">
+              <div title="alligator" class="map-icon">
+                <img src="../../assets/images/map/alligator.png" class="map-icon-pet" alt="alligator">
+              </div>
+
+              <!-- <div class="pop-up-area-01">
+                <img src="../../assets/images/map/alligator.png" class="pop-up-img" alt="eagle">
+                <h3>Alligator</h3>
+                <div class="pop-up-region">
+                  <p><span>Region:</span> the USA</p>
+                </div>
+                <div class="pop-up-population">
+                  <p><span>Population:</span> more than 270 pairs in 2013</p>
+                </div>
+              </div> -->
+
+              <div class="map-icon-03">
+                <div title="gorilla" class="map-icon">
+                  <img src="../../assets/images/map/gorilla.png" class="map-icon-pet" alt="gorilla">
+                </div>
+
+                <!-- <div class="pop-up-area-01">
+                  <img src="../../assets/images/map/gorilla.png" class="pop-up-img" alt="eagle">
+                  <h3>Gorilla</h3>
+                  <div class="pop-up-region">
+                    <p><span>Region:</span> somewhere in Africa</p>
+                  </div>
+                  <div class="pop-up-population">
+                    <p><span>Population:</span> more than 270 pairs in 2013</p>
+                  </div>
+                </div> -->
+
+                <div class="map-icon-04">
+                  <div title="panda" class="map-icon active-icon">
+                    <img src="../../assets/images/map/panda.png" class="map-icon-pet" alt="panda">
+                  </div>
+
+                  <!-- <div class="pop-up-area-01">
+                    <img src="../../assets/images/map/panda.png" class="pop-up-img" alt="eagle">
+                    <h3>Panda</h3>
+                    <div class="pop-up-region">
+                      <p><span>Region:</span>China</p>
+                    </div>
+                    <div class="pop-up-population">
+                      <p><span>Population:</span> more than 270 pairs in 2013</p>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+
+              <button type="button" class="watch-button-map" onclick="window.location.href='../zoos/panda/panda.html'">
+                <img src="../../assets/icons/play.svg" class="play-img" alt="play">
+                <div class="button-text">Watch online</div>
+              </button>
+
+            </div>
+
+          </div>
+          <h1 hidden="true">Online Zoo</h1>
+
+  </main>
+
+  <footer>
+    <div class="wrapper-content">
+
+      <section><a href="../../index.html" class="footer-logo"></a></section>
+
+      <section class="footer-links">
+        <ul class="nav-footer">
+          <li><a href="../../index.html">about</a></li>
+          <li><a href="../zoos/panda/panda.html">zoos</a></li>
+          <li><a href="intermediatePage.html">map</a></li>
+          <li><a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp">design</a>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <button type="button" class="button-footer">
+          <div class="button-text-footer">donate for volunteers</div>
+        </button>
+      </section>
+
+      <section class="contact-us" id="contact-us-area">
+
+        <form>
+          <h3>Contact us</h3>
+          <input type="text" required placeholder="Name" id="contact-name">
+          <input type="email" required placeholder="E-mail" id="contact-email">
+
+          <fieldset>
+            <textarea required name="" maxlength="280"></textarea>
+            <legend>Please enter your message
+            </legend>
+          </fieldset>
+
+          <div class="checkbox-area">
+            <input type="checkbox" required placeholder="" id="footer-checkbox">
+            <label for="footer-checkbox">I agree to the processing of Personal Data</label>
+          </div>
+
+          <button type="submit" class="form-send">
+            <p>send</p>
+            <img src="../../assets/images/arrow-send-form.png" alt="">
+          </button>
+        </form>
+
+      </section>
+
+      <section class="zoo-online-center">
+
+        <h3>ZOO Online Centre</h3>
+
+        <address>
+          <p>132, Address District, Street </p>
+          <p class="shedule">Open Daily 10:00 am - 5:00 pm</p>
+          <div class="adress-contacts">
+            <a href="tel:702-163-3433" class="zoo-tel">T(702) 163-3433</a>
+            <a href="mailto:zoo.online@gmail.com" class="zoo-mail">zoo.online@gmail.com</a>
+          </div>
+        </address>
+
+        <div class="footer-nets">
+          <ul class="social-nets-gorisontal">
+            <li>
+              <a href="https://www.instagram.com/" class="social-links instagram"></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/?lang=ru" class="social-links twitter"></a>
+            </li>
+            <li>
+              <a href="https://vk.com/" class="social-links vk"></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/c/RollingScopesSchool/about" class="social-links youtube"></a>
+            </li>
+          </ul>
+        </div>
+
+      </section>
+
+      <div class="footer-line">
+      </div>
+      <div class="under-line">
+        <p>©Noora Sagnayeva</p>
+        <p>©RSSchool and ©Yem Digital 2021</p>
+      </div>
+    </div>
+  </footer>
+  <script src="map.js"></script>
+</body>
+
+</html>
